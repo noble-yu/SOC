@@ -1,9 +1,146 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="TdugGp3yfh2dvllN9QLp">
-    <mxGraphModel>
+    <mxGraphModel dx="1406" dy="1011" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-7" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="593.25" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-1" target="hVt2LTHoJRDwg-Z2mQNB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-29" value="&amp;nbsp;managed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-22">
+          <mxGeometry x="0.0019" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-1" target="hVt2LTHoJRDwg-Z2mQNB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-32" value="&amp;nbsp;Forward logs via agent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-26">
+          <mxGeometry x="-0.004" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#4870DB;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="216.75" y="730" width="43.25" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-2" target="hVt2LTHoJRDwg-Z2mQNB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-33" value="&amp;nbsp;forward, logs via agent" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-27">
+          <mxGeometry x="0.0156" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-2" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#7D7C7C;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="620" y="730" width="43.25" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-3" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#FF8FF7;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="433.38" y="515" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#38C938;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="433.38" y="730" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#ffe6cc;strokeColor=#d79b00;startArrow=classic;startFill=1;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-5" target="hVt2LTHoJRDwg-Z2mQNB-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="547" />
+              <mxPoint x="560" y="547" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-31" value="&amp;nbsp;alerts and tickets" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-25">
+          <mxGeometry x="-0.0204" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#010003;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="616.75" y="515" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.traditional_server;fillColor=#FF6666;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="670" y="270" width="46.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-8" value="VULTR&lt;div style=&quot;font-size: 30px;&quot;&gt;&lt;br style=&quot;font-size: 30px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="200" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=classicThin;endFill=1;startArrow=classic;startFill=1;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-10" target="hVt2LTHoJRDwg-Z2mQNB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-30" value="&amp;nbsp;manage agents" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-24">
+          <mxGeometry x="-0.0564" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-10" value="Elastic 6 Kibana" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.63" y="578" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-11" value="Windows server RDP Enabled&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="830" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-13" value="Ubunto Server SSH&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-14" value="Fleet Servers&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="426.63" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-15" value="OSticket Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-16" value="C2 Server&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="663.25" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-2" target="hVt2LTHoJRDwg-Z2mQNB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-28" value="Managed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hVt2LTHoJRDwg-Z2mQNB-23">
+          <mxGeometry x="-0.0172" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-34" value="Private Network: 172.31.0.0/24&#xa;IP Range: 172.31.0.1-254&#xa;Subnet Mask: 255.255.255.0" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="530" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-35" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="416.94" y="430" width="79.37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-37" target="hVt2LTHoJRDwg-Z2mQNB-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-37" value="" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;" vertex="1" parent="1">
+          <mxGeometry x="416.94" y="330" width="79.37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-38" value="&lt;font color=&quot;#ffffff&quot;&gt;&amp;nbsp;Internet&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419.88" y="333" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-40" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.laptop;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="180.56" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-41" value="SOC analyst laptop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="127.23000000000002" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-42" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#b85450;fillColor=#f8cecc;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.laptop;" vertex="1" parent="1">
+          <mxGeometry x="650" y="40" width="180.56" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-44" value="Hscker Laptop" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-46" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-40" target="hVt2LTHoJRDwg-Z2mQNB-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="310" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-47" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-42" target="hVt2LTHoJRDwg-Z2mQNB-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="180" as="sourcePoint" />
+            <mxPoint x="540" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hVt2LTHoJRDwg-Z2mQNB-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hVt2LTHoJRDwg-Z2mQNB-35" target="hVt2LTHoJRDwg-Z2mQNB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
